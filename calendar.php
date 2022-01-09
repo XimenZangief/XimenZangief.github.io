@@ -8,8 +8,8 @@
     <title>線上萬年曆</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./clock.js"></script>
+    <link rel="stylesheet" href="calendar.css">
+    <script src="clock.js"></script>
     <?php
     date_default_timezone_set('Asia/Taipei'); //取得時區並在開啟時填入年月
     // $year = date('Y');

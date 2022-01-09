@@ -1,0 +1,47 @@
+body {
+  padding-top: 3rem;
+}
+
+header {
+  padding: 30vh 0;
+  background: -webkit-gradient(linear, left top, right top, from(#EECDA3), to(#EF629F));
+  background: linear-gradient(to right, #EECDA3, #EF629F);
+}
+
+.portflio {
+  padding: 10vh 0;
+  background: #222;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .portflio {
+    padding: 30vh 0;
+  }
+}
+
+.character {
+  padding: 10vh 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .character {
+    padding: 30vh 0;
+  }
+}
+
+.featured {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 10;
+  background: #222;
+}
+
+footer {
+  padding: 3vh 0;
+  text-align: center;
+  background: black;
+  color: white;
+}
+/*# sourceMappingURL=custom.css.map */
